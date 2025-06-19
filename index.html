@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MotivadoFRU - Historias de Madera</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff9f0;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: #5a3e2b;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #fdf6ee;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .card a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Historias de Madera – MotivadoFRU</h1>
+    <p>Bienvenido a un lugar donde el arte hecho a mano se encuentra con la historia digital.</p>
 
+    <div class="grid">
+      <div class="card">
+        <img src="fotos/motivaciondiaria.jpg" alt="Motivación Diaria">
+        <a href="motivaciondiaria.html">Ver historia</a>
+      </div>
+      <div class="card">
+        <img src="fotos/gato.jpg" alt="El Guardián Felino">
+        <a href="gato.html">Ver historia</a>
+      </div>
+      <div class="card">
+        <img src="fotos/perro.jpg" alt="El Leal Canino">
+        <a href="perro.html">Ver historia</a>
+      </div>
+    </div>
+
+    <p style="margin-top: 2rem; text-align: center;">
+      <strong>También puedes:</strong><br>
+      <a href="https://www.instagram.com/tu-canal"  target="_blank">Seguirme en Instagram</a> | 
+      <a href="https://youtube.com/@tu-canal"  target="_blank">Ver mis videos en YouTube</a>
+    </p>
+  </div>
+</body>
+</html>
